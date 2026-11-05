@@ -10,7 +10,7 @@ package tugas.ArrrayMultidimensi;
  */
 public class EmpatJumlahDiagonalUtama {
     public static void main(String[] args) {
-        // Mendeklarasikan matriks persegi (ukuran baris dan kolom sama, misal 3x3)
+       
         int[][] matriks = {
             {5,  2,  3},
             {4, 10,  6},
@@ -25,11 +25,10 @@ public class EmpatJumlahDiagonalUtama {
             System.out.println();
         }
 
-        // Variabel untuk menyimpan hasil penjumlahan
+      
         int jumlahDiagonal = 0;
 
-        // Menjumlahkan elemen diagonal utama
-        // Diagonal utama adalah elemen di mana indeks baris sama dengan indeks kolom (i == j)
+       
         for (int i = 0; i < matriks.length; i++) {
             jumlahDiagonal += matriks[i][i]; 
         }
